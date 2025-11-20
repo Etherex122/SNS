@@ -1,0 +1,11 @@
+
+Function _INT _main(){
+    _INT x: 5;
+    _INT y: 338;
+    _PTR ptr: @x;
+    _PTR ptr1: @y;
+    _PTR ptr2: @ptr1;
+    Write: *ptr\int + **ptr2\int;
+
+    Return: 0;
+}
