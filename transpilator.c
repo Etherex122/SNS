@@ -975,7 +975,7 @@ DTYPE get_variable_type(const char *name, char *seg) {
 }
 
 void T_shift_chars(char *buffer, int S, int L) {
-    int dc = strlen(bufor);
+    int dc = strlen(buffer);
     int ddp;
 
     if (S < 0 || S >= dc) {
@@ -2078,4 +2078,5 @@ void Transpilate(NODE *tree, char *segment) {
         transpile_expr_asm(tree, segment, regs_tree);
   }
 }
+
 
