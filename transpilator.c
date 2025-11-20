@@ -817,7 +817,7 @@ void finalize_codegen(FILE *out) {
         );
     }
 
-    // zapis i zwolnienie
+
     flush_codegen(out);
 }
 
@@ -2078,3 +2078,4 @@ void Transpilate(NODE *tree, char *segment) {
         transpile_expr_asm(tree, segment, regs_tree);
   }
 }
+
